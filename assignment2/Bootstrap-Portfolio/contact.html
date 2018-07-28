@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Zach Adriaens</title>
+  <!-- Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!-- Additional CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Bootstrap Navbar -->
+    <header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Zach Adriaens</a>
+          <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2">
+        <div id="main-container" class="container">
+          <section class="main-section">
+            <h1>Contact</h1>
+            <!-- Bootstrap form -->
+            <form>
+                <div class="form-group">
+                  <label for="inputName1">Name</label>
+                  <input type="name" class="form-control" placeholder="Jane Smith">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail1">Email</label>
+                  <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage1">Message</label>
+                  <!-- <input type="message" class="form-control" id="inputMessage1" rows="5"> -->
+                  <textarea class="form-control"  rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info btn-lg">Submit</button>
+             </form>
+            </section>
+        </div>
+        </div>
+      </div>
+
+      <footer>
+        &copy; Copyright 2018 Zach Adriaens
+    </footer>
+    
+    </body>
+    </html>
