@@ -1,0 +1,116 @@
+<!-- hello -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Take A Hike</title>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700%7CUbuntu+Condensed" rel="stylesheet">
+    <!--Our Fonts-->
+    <link href="assets/images/mtn-logo.png" rel="icon" type="icon">
+    <!--Our Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+    <!--Our grid css styling-->
+
+</head>
+<!-- background="assets/images/nourdine-diouane-77072-unsplash.jpg" class="img-responsive backgroundImage" -->
+
+<body>
+    <div class="container">
+        <div class="item item-1" id="header">
+            <span id="topHeader">
+                <img src="assets/images/mtn-logo.png" alt="mountain logo" width="100">
+                <h1>Take A Hike</h1>
+                <h2><em>"Keep your face always toward the sunshine - and shadows will fall behind you." -Walt Whitman</em></h2>
+            </span>
+        </div>
+
+        <div class="item item-2">
+            <form class="searchField">
+                <h3>Search Hikes by Zip Code</h3>
+                <input type="number" placeholder="Zip Code" name="search" id="zip">
+                <button type="submit" id="search">Submit</button>
+            </form>
+            <div id="incorrectZip">
+
+            </div>
+        </div>
+
+        <div class="item item-3" id="results">
+            <h3>Results</h3>
+
+            <div class="headResults">
+                <span><strong>Trail Name</strong>
+                </span>
+                <span><strong>Length</strong>
+                </span>
+                <span><strong>Trail Condition</strong>
+                </span>
+                <span><strong>Trail Rating</strong>
+                </span>
+                <span><strong>Trail Difficulty</strong>
+                </span>
+                <span><strong>More Info</strong>
+                </span>
+            </div>
+
+            <div id="trailResults">
+
+            </div>
+
+        </div>
+
+        <div class="item item-4" id="details">
+            <h3 id="headDetails">Details</h3>
+            <div class="detailHikeinfo" id="detailHike">
+            </div>
+        </div>
+
+        <div class="item item-5" id="recent">
+            <div class="recentSearchText">
+                <h3>Recent Searches:</h3>
+                <div class="recentSearchText" id="recenthtml1"></div>
+                <div class="recentSearchText" id="recenthtml2"></div>
+            </div>
+
+        </div>
+
+        <div class="item item-6" id="weather">
+
+            <div class="weatherResults">
+                <h3>Weather</h3>
+                <div id="weatherConditions">
+                </div>
+            </div>
+        </div>
+
+        <div class="item item-7" id="hikeImage">
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="item item-8" id="footer">
+            <p>&copy;Copyright 2018</p>
+            <p>Adriaens, Karlovich, &amp; Turner</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/Javascript/App.js"> </script>
+
+    <!-- Google API -->
+    <!-- <script async defer src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyDt7o9xiwoXtH_B5ke_LoqciN9GURNK9Lo&callback=initMap”></script> -->
+
+</body>
+
+</html>
