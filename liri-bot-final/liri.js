@@ -61,7 +61,7 @@ function movie() {
           console.log("Language: " + body.Language);
           console.log("Plot: " + body.Plot);
           console.log("Actors: " + body.Actors);
-          console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
+          console.log("Rotten Tomatoes Rating: " + body.Ratings[2]);
           console.log("Rotten Tomatoes URL: " + body.tomatoURL);
           console.log('================== THE END =================');
 
