@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poker Chip Counter</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Poker Chip Counter</h1>
+		</header>
+
+		<section>
+			<p>You will be given a random number at the start of the game.</p>
+			<br/>
+			<p>There are four poker chips below. By clicking on a chip you will add a specific amount of points to your total score.</p>
+			<br/>
+			<p>You win the game by matching your total score to the random number -- you lose the game if your total score goes above the random number.</p>
+			<br/>
+			<p>The value of each chip is hidden from you until you click on it.</p>
+			<br/>
+			<p>Each time the game starts, it will change the values of each chip.</p>
+		</section>
+
+		<div id="randomnumber-and-scoreboard">
+			<div id="random-number-generator">
+				<span id="random-number"></span>
+			</div>
+
+			<div id="score-board">
+				<span id="win-or-lose"></span>
+				<p>Wins: <span id="win-counter">0</span></p>
+				<p>Losses: <span id="loss-counter">0</span></p>
+			</div>
+		</div>
+
+		<div id="crystals">
+			<img id="blue" src="assets/images/blue.jpg" alt="blue chip">
+			<img id="white" src="assets/images/white.jpg" alt="white chip">
+			<img id="green" src="assets/images/green.jpg" alt="green chip">
+			<img id="red" src="assets/images/red.jpg" alt="red chip">
+		</div>
+
+		<div id="current-score">
+			<h1>Total score is:</h1>
+			<span id="current-score-counter"></span>
+		</div>
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+</html>

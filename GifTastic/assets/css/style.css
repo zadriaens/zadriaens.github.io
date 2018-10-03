@@ -1,0 +1,51 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #a30a0a;
+    background: url(../images/img1.jpg) no-repeat center center fixed;
+}
+
+.navbar-default {
+    background-color: #6e0909;
+    border-color: #ffffff;
+}
+
+.page-header,
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.panel {
+    border-radius: 25px;
+}
+
+#tvShowButtonsDiv{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #6b6a0f;
+    color: #ffffff;
+}
+
+.tvShowButton {
+    margin: 2px
+}
+
+.gifDiv {
+    width: fit-content;
+    display: inline-block;
+    margin: 25px;
+}
+
+img.gif {
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+ body {
+      border: 19px solid rgb(43, 76, 119);
+      font-family: 'Fondamento', Georgia, 'Times New Roman', serif, cursive;
+      align-content: center;      
+      color: rgb(245, 17, 17);      
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align:center;
+      vertical-align:center;
+      line-height: 36px;  
+      background-image: url("../images/question-marks-background.jpg");
+ }
+
+    .container {
+      display: flex;
+      justify-content: center;
+  }
+
+    .center {      
+      width: 1700px;
+      height: 1029px;
+      padding-top: 200px;      
+    }
+
+    .wrapper {
+      padding-left: 330px;
+    }
+
+    #won {
+      color: rgb(26, 150, 10);
+      font-size: 1.5em;
+    }
+
+    #lost {
+      color: red;
+      font-size: 1.5em;
+    }
+
+    #attempts {
+      color: rgb(197, 86, 12);
+      font-size: 1.2em;
+    }
+
+    #playerGuess {
+      color: blue;
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 1.6em;
+    }

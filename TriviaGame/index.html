@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>TriviaGame</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="assets/css/style.css">
+  
+
+</head>
+<body>
+<body>
+  
+
+  <div class="container">
+   <div id="row">
+
+  <h1 class="quizHeader"><center>Aqua Teen Hunger Force Trivia!</center></h1>
+	<table style="width:900px">
+	 <h2 id="timer">Time Remaining:</h2>
+
+     <div id="clockdiv">Seconds</div>
+        
+ 
+	  	<div>
+	  		<p class="question">1. Who Performs the title theme for the show?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Schoolly D</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>MC Derek</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Little Brittle</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Sparks</label>
+    		</ul>
+	  	</div>
+	 
+	
+	  	<div>
+	  		<p class="question">2. What color milkshake is inside Master Shake?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Red</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">Green</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>White</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Yellow</label>
+	    	</ul>
+	  	</div>
+	 
+	
+	 	 <div>
+	  		<p class="question">3. What is the name of the Aqua Teen Hungar Force's Neighbor?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Dave</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">Carl</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Mike</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Steve</label>
+	    	</ul>
+		</div>
+	 
+	 
+	  	<div>
+	  		<p class="question">4. What is the name of the rapper who plays both 'Sir Loin' and 'Little Brittle'?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Richie R Man</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">MC P Pants</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Rolin Record</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Mike One Two</label>
+    		</ul>
+	  	</div>
+
+	     <div>
+	     <p class="question">5. Carl is a fan of which NFL team?</p>
+
+	        <ul>
+	    	<input class="answer" type="radio" name="q5" value="1">
+	        <label id="correctString5">New York Giants</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>New York Jets</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>Atlanta Falcons</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>New England Patriots</label>
+    		</ul>
+	  	</div>
+
+	  	<div>
+	  		<p class="question">6. Which rock stars sing Shake's new birthday song?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>Rob Zombie</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>James Hetfield</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="1">
+	        <label id="correctString6">Zakk Wylde</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>Dave Grohl</label>
+    		</ul>
+	  	</div>
+	  	<div>
+	  		<p class="question">7. What is painted on the side of Carl's car?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>Ryde 2 Di</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="1">
+	        <label>Pull 1t 0ver</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>Go 2 Fast</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="1">
+	        <label id="correctString7">2 Wycked</label>
+	    	</ul>
+		</div>
+	</table>
+	</div>
+	
+<br>
+
+    <div class="submitter">
+         <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+
+    <div class="quizAnswers" id="correctAnswer1"></div>
+    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+    <div class="quizAnswers" id="correctAnswer5"></div>
+    <div class="quizAnswers" id="correctAnswer6"></div>
+    <div class="quizAnswers" id="correctAnswer7"></div>
+
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+	</div>
+	
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
