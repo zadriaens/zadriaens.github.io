@@ -1,0 +1,8 @@
+[{"name":"Ronald","photo":"https://bloody-disgusting.com/wp-content/uploads/2017/05/Screen-Shot-2017-05-01-at-11.17.09-AM.jpg","answers[]":["5","2","3","4","2","4","1","3","5","4"]},
+{"name":"The King","photo":"https://joesdaily.com/wp-content/uploads/2015/12/the-burger-king-shot-by-terry-richardson-2.jpg","answers[]":["5","5","4","2","3","1","4","5","2","5"]},
+{"name":"Jack","photo":"http://www.willowglen.org/images/6066-545x615/jackbox.jpg","answers[]":["2","4","1","2","2","1","2","5","5","3"]},
+{"name":"Wendy","photo":"https://www.adweek.com/agencyspy/wp-content/uploads/sites/7/2016/03/wendys-logo-new.png","answers[]":["1","5","5","1","4","3","2","2","5","3"]},
+{"name":"Sanders","photo":"https://www.chewboom.com/wp-content/uploads/2017/08/KFC-Brings-Back-The-Real-Colonel-Sanders-As-Brand%E2%80%99s-Newest-Celebrity-Ambassador-678x381.jpg","answers[]":["4","3","2","3","4","1","3","5","5","2"]},
+{"name":"Big Boy","photo":"https://i.pinimg.com/originals/b6/7d/a0/b67da0ccdf324c682a459971edc953a8.jpg","answers[]":["5","4","1","2","3","1","4","3","2","5"]},
+{"name":"Cesar","photo":"http://m.pizzakit.com/media/93/spear-caesar-2.jpg","answers[]":["3","2","4","3","2","4","5","5","2","4"]},
+{"name":"Noid","photo":"https://vignette.wikia.nocookie.net/theflophouse/images/3/3c/Avoid_the_noid_1000x1000.jpg/revision/latest?cb=20141102010009","answers[]":["1","4","5","2","2","5","2","4","3","4"]}]
